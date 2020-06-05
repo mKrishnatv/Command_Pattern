@@ -1,4 +1,4 @@
-package Electronics;
+package electronics;
 
 public class RemoteControl {
     ElectronicsCommand command;

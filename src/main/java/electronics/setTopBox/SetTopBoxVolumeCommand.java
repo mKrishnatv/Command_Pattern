@@ -1,6 +1,6 @@
-package Electronics.setTopBox;
+package electronics.setTopBox;
 
-import Electronics.ElectronicsCommand;
+import electronics.ElectronicsCommand;
 
 public class SetTopBoxVolumeCommand implements ElectronicsCommand {
 

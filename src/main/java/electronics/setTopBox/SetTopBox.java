@@ -1,4 +1,4 @@
-package Electronics.setTopBox;
+package electronics.setTopBox;
 
 public class SetTopBox {
     private int volume = 0;

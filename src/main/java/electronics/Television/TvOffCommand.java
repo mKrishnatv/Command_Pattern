@@ -1,6 +1,6 @@
-package Electronics.Television;
+package electronics.Television;
 
-import Electronics.ElectronicsCommand;
+import electronics.ElectronicsCommand;
 
 public class TvOffCommand implements ElectronicsCommand {
 

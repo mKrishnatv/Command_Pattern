@@ -1,11 +1,11 @@
-import Electronics.RemoteControl;
-import Electronics.setTopBox.SetTopBox;
-import Electronics.setTopBox.SetTopBoxOffCommand;
-import Electronics.setTopBox.SetTopBoxOnCommand;
-import Electronics.Television.TV;
-import Electronics.Television.TvOffCommand;
-import Electronics.Television.TvOnCommand;
-import Electronics.setTopBox.SetTopBoxVolumeCommand;
+import electronics.RemoteControl;
+import electronics.setTopBox.SetTopBox;
+import electronics.setTopBox.SetTopBoxOffCommand;
+import electronics.setTopBox.SetTopBoxOnCommand;
+import electronics.Television.TV;
+import electronics.Television.TvOffCommand;
+import electronics.Television.TvOnCommand;
+import electronics.setTopBox.SetTopBoxVolumeCommand;
 import org.junit.Test;
 
 public class ElectronicsTest {

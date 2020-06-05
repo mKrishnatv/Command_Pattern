@@ -1,4 +1,4 @@
-package Electronics.Television;
+package electronics.Television;
 
 public class TV {
     public void on(){
