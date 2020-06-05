@@ -2,21 +2,21 @@ package Electronics.setTopBox;
 
 import Electronics.ElectronicsCommand;
 
-public class SetTopBoxOffCommand implements ElectronicsCommand {
+public class SetTopBoxVolumeCommand implements ElectronicsCommand {
 
     SetTopBox setTopBox;
 
-    public SetTopBoxOffCommand(SetTopBox setTopBox){
+    public SetTopBoxVolumeCommand(SetTopBox setTopBox){
         this.setTopBox = setTopBox;
     }
 
     @Override
     public void execute() {
-        setTopBox.off();
+        setTopBox.setVolumeUp();
     }
 
     @Override
     public void undo() {
-        setTopBox.on();
+        setTopBox.setVolumeDown();
     }
 }

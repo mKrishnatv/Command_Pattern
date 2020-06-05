@@ -1,6 +1,8 @@
 package Electronics.setTopBox;
 
 public class SetTopBox {
+    private int volume = 0;
+
     public void on(){
         System.out.println("SetTopBox is On");
     }
@@ -9,15 +11,13 @@ public class SetTopBox {
         System.out.println("SetTopBox is Off");
     }
 
-    public void setChannel(int defaulChannel){
-        System.out.println("SetTopBox is set to channel: "+defaulChannel);
-    }
-
-    public void setVolume(int volume){
+    public void setVolumeUp(){
+        volume ++;
         System.out.println("SetTopBox volume is set to "+volume);
     }
 
-
-
-
+    public void setVolumeDown(){
+        volume--;
+        System.out.println("SetTopBox volume is set to "+volume);
+    }
 }

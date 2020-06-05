@@ -13,7 +13,10 @@ public class SetTopBoxOnCommand implements ElectronicsCommand {
     @Override
     public void execute() {
         setTopBox.on();
-        setTopBox.setChannel(312);
-        setTopBox.setVolume(10);
+    }
+
+    @Override
+    public void undo() {
+        setTopBox.off();
     }
 }

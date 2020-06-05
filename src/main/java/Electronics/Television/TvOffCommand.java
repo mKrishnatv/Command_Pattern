@@ -14,4 +14,9 @@ public class TvOffCommand implements ElectronicsCommand {
     public void execute() {
         tv.off();
     }
+
+    @Override
+    public void undo() {
+        tv.on();
+    }
 }
